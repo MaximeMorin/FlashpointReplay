@@ -1,0 +1,15 @@
+{
+    "Name": "FlashpointReplay",
+    "Version": "0.1.0",
+    "Enabled": true,
+    "Description": "Allows you to replay flashpoints. Play the game normally, when you want to replay flashpoints, turn this mod on, load your saved game, save, go back to menu, disable this mod.  All flashpoint data has been reset.",
+    "Author": "MadMax Tseng",
+    "Website": "https://github.com/MaximeMorin/FlashpointReplay",
+    "Contact": "max@rewin.ca",
+
+    "DependsOn": [ ],
+    "ConflictsWith": [ ],
+
+    "DLL": "Rewin.BattleTech.FlashpointReplay.dll",
+    "DLLEntryPoint": "Rewin.BattleTech.FlashpointReplay.Runner.Init"
+}
